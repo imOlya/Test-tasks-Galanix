@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>University Finder</h1>
+        <form id="search-form">
+            <input 
+                type="text" 
+                id="country-input" 
+                placeholder="Enter country name (e.g., ukraine)" 
+                required 
+            />
+            <button type="submit">Search</button>
+            <button type="button" id="reset-button">Reset</button>
+        </form>
+        <div id="results-container"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
